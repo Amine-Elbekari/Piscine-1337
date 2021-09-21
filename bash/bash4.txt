@@ -1,0 +1,6 @@
+iWHAT IS IT ? / WHY DO WE USE IT?
+#!/bin/bash
+echo $(date) # Will print the output of date command
+touch ~/output.txt
+echo "Hey there" > ~/output.txt
+Let’s consider a very simple script as above. In any simplest case if we analyse a shell script, it is nothing but a list of commands stored in a file. It reduces our effort to run the same task or commands again and again. So if we look at the beginning of the script the first line starts with a hash (#) and an exclamation mark (!). As you already must be knowing that any line starting with a hash (#) , is read as a comment. Thus when we execute the script, the first line is read as a comment and interpreter goes to the second line. But the first line has already done it’s job.
