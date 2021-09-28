@@ -1,1 +1,0 @@
-In Unix-like Operating Systems when a script starting with a she-bang(#!) is executed as a program, the program loader parses the rest of the script’s initial line as a interpreter-directive. Thus the specified interpreter program is run instead, passing to it as an argument the path that was used initially through the script.
